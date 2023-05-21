@@ -1,0 +1,4 @@
+.section__input-text{
+    display: flex;
+    flex-direction: column;
+}

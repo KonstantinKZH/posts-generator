@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Посты</title>
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="section-blocks">
+                <div class="section__input-text">
+                    <h2>Новый пост</h2>
+                    <input class="js-title-input title-input" type="text" placeholder="Напиши заголовок">
+                    <textarea class="js-text-input text-input" placeholder="Напиши пост" resize="none"></textarea>
+                    <button class="js-new-post-btn new-post-btn">Опубликовать</button>
+
+                    <p class="js-quantity-symbol-header quantity_symbol"></p>
+                    <p class="js-quantity-symbol-text quantity_symbol"></p>
+                </div>
+                <div class="posts">
+                    <h2>Лента</h2>
+                    <div class="js-posts-content posts-content">
+                        Тут пока пусто...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script/index.js"></script>
+</body>
+
+</html>

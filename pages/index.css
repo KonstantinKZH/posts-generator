@@ -1,0 +1,8 @@
+@import "../block/container/container.css";
+@import "../block/section/section.css";
+@import "../block/section-blocks/section-blocks.css";
+@import "../block/input-text/input-text.css";
+@import "../block/posts/posts.css";
+
+@import "../vendor/reset.css";
+@import "../vendor/fonts.css";

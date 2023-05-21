@@ -1,0 +1,39 @@
+.posts{
+    width: 550px;
+}
+
+.posts-content{
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #979797;
+}
+
+.posts-content__date{
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0094FF;
+}
+
+
+.posts-content__title{
+    margin-bottom: 15px;
+    width: 550px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    word-wrap: break-word;
+}
+
+.posts-content__text{
+    width: 550px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    word-wrap: break-word;
+}
