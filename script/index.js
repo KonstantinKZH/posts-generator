@@ -19,6 +19,9 @@ newPostBtnNode.addEventListener('click', function(){
     const postFromUser = getPostFromUser();
     addPost(postFromUser);
     renderPosts();
+
+    console.log(getNumberOfCharactersFromTitle());
+    console.log(getNumberOfCharactersFromText());
 });
 
 // Получает новый пост
@@ -87,12 +90,12 @@ function checkingNumberOfCharactersInText(){
 
 // Подсчитывает количество символов в заголовке
 function getNumberOfCharactersFromTitle(){
-    let quantitySymbolHeader = titleInputNode.value.slice(0, 101).length;
+    let quantitySymbolHeader = titleInputNode.value.split(/\s+/).join('').length;
     return quantitySymbolHeader;
 };
 
 // Подсчитывает количество символов в тексте
 function getNumberOfCharactersFromText(){
-    let quantitySymbolText = textInputNode.value.slice(0, 201).length;
+    let quantitySymbolText = textInputNode.value.split(/\s+/).join('').length;
     return quantitySymbolText;
-}
+};
