@@ -11,7 +11,6 @@ HTML, CSS, язык программирования JavaScript.
     <img style="margin-bottom: 20px;" src="/images-for-readme/img1.png" width="100%">
     <img style="margin-bottom: 20px;" src="/images-for-readme/img2.png" width="100%">
     <img style="margin-bottom: 20px;" src="/images-for-readme/img3.png" width="100%">
-    <img style="margin-bottom: 20px;" src="/images-for-readme/img4.png" width="100%">
 </div>
 
 ### Ссылка на проект
